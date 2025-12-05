@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>美味餐廳 Delicious Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>美味餐廳</h1>
+        <nav>
+            <a href="#menu">菜單</a>
+            <a href="#reservation">預約</a>
+            <a href="#contact">聯絡我們</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>新鮮食材 · 美味上桌</h2>
+        <p>立即預約，享受精緻料理！</p>
+    </section>
+
+    <section id="menu">
+        <h2>🍽 精選菜單</h2>
+        <ul>
+            <li>嫩煎牛排 —— $680</li>
+            <li>松露奶油義大利麵 —— $520</li>
+            <li>凱薩雞肉沙拉 —— $250</li>
+        </ul>
+    </section>
+
+    <section id="reservation">
+        <h2>📅 線上預約</h2>
+        <form id="reserveForm">
+            <label>姓名：<input type="text" id="name" required></label><br>
+            <label>電話：<input type="text" id="phone" required></label><br>
+            <label>日期：<input type="date" id="date" required></label><br>
+            <label>時間：<input type="time" id="time" required></label><br>
+            <label>人數：<input type="number" id="people" min="1" required></label><br>
+            <button type="submit">送出預約</button>
+        </form>
+
+        <p id="result"></p>
+    </section>
+
+    <section id="contact">
+        <h2>📞 聯絡我們</h2>
+        <p>電話：02-1234-5678</p>
+        <p>地址：台北市中正區美味路 88 號</p>
+    </section>
+
+    <footer>
+        © 2025 美味餐廳 All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
