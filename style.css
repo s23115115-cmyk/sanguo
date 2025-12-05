@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f3e9;
+}
+
+header {
+    background: #c0392b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('https://images.unsplash.com/photo-1555992336-cbf8ef59908d')
+        center/cover no-repeat;
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background: #c0392b;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e74c3c;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
